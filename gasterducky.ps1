@@ -353,7 +353,7 @@ else{
 # FOOTER ENDING
 if($SDMODE -eq "sd"){
     write-host "Self Destructing..."
-    delete-item gasterducky.ps1
+    remove-item gasterducky.ps1
     if($?){
         write-host "Self Destruct OK" -ForegroundColor Green
     }
